@@ -7,7 +7,7 @@ shopt -s nullglob
 # Our paths for the readme file
 header_path="../header.md"
 readme_path="../README.md"
-nbviewer_path="http://nbviewer.jupyter.org/github/OpenChemE/CHBE356/blob/master/Notebooks" 
+nbviewer_path="http://nbviewer.jupyter.org/github/OpenChemE/CHBE355/blob/master/Notebooks" 
 
 # Copy the header over and add a blank line
 cat "$header_path" > "$readme_path"
