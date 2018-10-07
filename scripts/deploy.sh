@@ -3,7 +3,7 @@
 # a pattern that matches nothing "disappears", rather than treated as a literal string:
 # https://unix.stackexchange.com/questions/239772/bash-iterate-file-list-except-when-empty
 shopt -s nullglob
-
+pwd
 # Our paths for the readme file
 header_path="../header.md"
 readme_path="../README.md"
