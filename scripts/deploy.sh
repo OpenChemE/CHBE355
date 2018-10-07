@@ -14,7 +14,7 @@ cat "$header_path" > "$readme_path"
 echo -e "\n" >> "$readme_path"
 
 # https://stackoverflow.com/questions/3362920/get-just-the-filename-from-a-path-in-a-bash-script
-for d in ../Notebooks/* ; do
+for d in ./Notebooks/* ; do
 	xpath=${d%/*} 
 	xbase=${d##*/}
 	xfext=${xbase##*.}
