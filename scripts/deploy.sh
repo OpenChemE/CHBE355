@@ -5,8 +5,8 @@
 shopt -s nullglob
 pwd
 # Our paths for the readme file
-header_path="../header.md"
-readme_path="../README.md"
+header_path="header.md"
+readme_path="README.md"
 nbviewer_path="http://nbviewer.jupyter.org/github/OpenChemE/CHBE355/blob/master/Notebooks" 
 
 # Copy the header over and add a blank line
